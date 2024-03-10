@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="136dp"
+    android:layout_height="136dp"
+    android:layout_marginHorizontal="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:weightSum="17">
+
+        <ImageView
+            android:id="@+id/cardViewImage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pexels_quang_nguyen_vinh_2132227"/>
+
+        <TextView
+            android:id="@+id/cardViewText"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            style="@style/heading2"
+            android:textColor="@color/colorOnBackground"
+            android:text="Desert Chic"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

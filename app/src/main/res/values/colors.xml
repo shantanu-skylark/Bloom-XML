@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink_100">#FFF1F1</color>
+    <color name="pink_900">#3F2C2C</color>
+    <color name="white_850">#D9D9D9</color>
+    <color name="gray">#232323</color>
+    <color name="green_900">#2D3B2D</color>
+    <color name="green_300">#B8C9B8</color>
+    <color name="white_150">#26FFFFFF</color>
+
+    <color name="login_text_color">@color/pink_900</color>
+
+    <color name="colorPrimary">@color/pink_100</color>
+    <color name="colorOnPrimary">@color/gray</color>
+    <color name="colorSecondary">@color/pink_900</color>
+    <color name="colorOnSecondary">@color/white</color>
+    <color name="background">@color/white</color>
+    <color name="colorOnBackground">@color/gray</color>
+    <color name="surface">@color/white_850</color>
+    <color name="colorOnSurface">@color/gray</color>
+</resources>

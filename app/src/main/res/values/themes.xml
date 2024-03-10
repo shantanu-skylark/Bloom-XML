@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BloomXML" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/pink_100</item>
+        <item name="colorSecondary">@color/pink_900</item>
+        <item name="background">@color/white</item>
+        <item name="colorSurface">@color/white_850</item>
+        <item name="colorOnPrimary">@color/gray</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/gray</item>
+        <item name="colorOnSurface">@color/gray</item>
+    </style>
+
+    <style name="Theme.BloomXML" parent="Base.Theme.BloomXML" />
+
+    <style name="heading1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="heading2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_bold</item>
+    </style>
+
+    <style name="subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_light</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_light</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="body2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_light</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_semibold</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_semibold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="bottomNavStyle" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#00000000</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorOnBackground</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/nunito_sans_semibold</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+</resources>

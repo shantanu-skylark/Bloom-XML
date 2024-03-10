@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BloomXML" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green_900</item>
+        <item name="colorSecondary">@color/green_300</item>
+        <item name="background">@color/gray</item>
+        <item name="colorSurface">@color/white_150</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/gray</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white_850</item>
+    </style>
+
+    <style name="Theme.BloomXML" parent="Base.Theme.BloomXML" />
+</resources>
