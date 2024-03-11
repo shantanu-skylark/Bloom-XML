@@ -1,85 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorPrimary"
-    tools:context=".WelcomeFragment">
-    
+    tools:context=".ui.fragments.WelcomeFragment">
+
     <ImageView
         android:id="@+id/welcomeBg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/light_welcome_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/light_welcome_bg" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="contentDescription" />
 
     <ImageView
         android:id="@+id/welcomeIllos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/light_welcome_illos"
-        android:layout_marginTop="72dp"
         android:layout_marginStart="88dp"
-        android:scaleX="1.2"
-        android:scaleY="1.2"
+        android:layout_marginTop="72dp"
         android:paddingStart="24dp"
         android:paddingTop="24dp"
-        android:paddingBottom="24dp"/>
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@drawable/light_welcome_illos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="contentDescription" />
 
     <ImageView
         android:id="@+id/bloomLogo"
+        style="@style/heading1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcomeIllos"
-        android:textColor="@color/colorOnPrimary"
+        android:layout_marginTop="32dp"
         android:src="@drawable/light_logo"
-        style="@style/heading1"
-        android:layout_marginTop="48dp" />
+        android:textColor="@color/colorOnPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomeIllos"
+        tools:ignore="contentDescription" />
 
     <TextView
         android:id="@+id/bloomSubtitle"
+        style="@style/subtitle1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_beautiful_home_garden_solutions"
         android:textColor="@color/colorOnPrimary"
-        app:layout_constraintTop_toBottomOf="@id/bloomLogo"
-        android:text="Beautiful home garden solutions"
-        style="@style/subtitle1"
-        android:layout_marginTop="32dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bloomLogo" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonCreateAccount"
+        style="@style/button"
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginHorizontal="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bloomSubtitle"
-        app:backgroundTint="@color/colorSecondary"
-        android:layout_marginTop="40dp"
-        style="@style/button"
+        android:layout_marginTop="32dp"
+        android:text="@string/button_create_account"
         android:textColor="@color/colorOnSecondary"
-        android:text="Create account" />
+        app:backgroundTint="@color/colorSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bloomSubtitle" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonLogIn"
+        style="@style/TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonCreateAccount"
-        style="@style/TextButton"
-        android:text="Log in"
         android:layout_marginTop="8dp"
-        android:textColor="@color/login_text_color" />
+        android:text="@string/button_log_in"
+        android:textColor="@color/login_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonCreateAccount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

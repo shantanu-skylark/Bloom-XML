@@ -1,4 +1,4 @@
-package com.example.bloomxml
+package com.example.bloomxml.data
 
 import androidx.annotation.DrawableRes
 

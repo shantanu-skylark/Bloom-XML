@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="136dp"
     android:layout_height="136dp"
     android:layout_marginHorizontal="4dp"
@@ -19,7 +20,8 @@
             android:layout_height="0dp"
             android:layout_weight="13"
             android:scaleType="centerCrop"
-            android:src="@drawable/pexels_quang_nguyen_vinh_2132227"/>
+            android:src="@drawable/pexels_quang_nguyen_vinh_2132227"
+            tools:ignore="contentDescription" />
 
         <TextView
             android:id="@+id/cardViewText"
@@ -30,7 +32,7 @@
             android:layout_marginStart="16dp"
             style="@style/heading2"
             android:textColor="@color/colorOnBackground"
-            android:text="Desert Chic"/>
+            tools:text="Desert Chic"/>
 
     </LinearLayout>
 

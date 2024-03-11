@@ -11,7 +11,6 @@
     <color name="white_150">#26FFFFFF</color>
 
     <color name="login_text_color">@color/pink_900</color>
-
     <color name="colorPrimary">@color/pink_100</color>
     <color name="colorOnPrimary">@color/gray</color>
     <color name="colorSecondary">@color/pink_900</color>
